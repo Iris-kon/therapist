@@ -1,6 +1,7 @@
 export function About() {
   return (
     <section id="about" className="bg-background-light flex flex-col gap-4 px-4 sm:px-14 py-12">
+      <div className="block "></div>
       <h2 className="text-3xl font-bold text-center sm:text-left text-primary">Sobre</h2>
       
       <div className="flex flex-col items-center md:items-start text-center md:text-left">
