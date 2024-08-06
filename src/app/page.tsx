@@ -1,7 +1,9 @@
 'use client'
 import { About } from "@/components/about";
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
+import { Schedule } from "@/components/schedule";
 import { Services } from "@/components/services";
 import { useEffect } from "react";
 
@@ -40,6 +42,8 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <Schedule />
+      <Footer />
     </main>
   )
 }
