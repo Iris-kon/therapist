@@ -1,6 +1,5 @@
 
 import { RiWhatsappLine } from "@remixicon/react";
-import { ChevronUp } from "lucide-react";
 
 export function Whatsapp() {
   return (
